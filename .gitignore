@@ -1,0 +1,17 @@
+# Anki Add-on Ignore Rules
+
+# Compiled Python files
+__pycache__/
+*.py[cod]
+
+# App packaging
+*.ankiaddon
+*.zip
+
+# User specific data (just in case)
+user_files/
+history.json
+
+# OS generated files
+.DS_Store
+Thumbs.db

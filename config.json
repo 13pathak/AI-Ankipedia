@@ -1,0 +1,26 @@
+{
+    "models": [
+        {
+            "id": "gemini",
+            "name": "Gemini Flash",
+            "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+            "modelName": "gemini-2.0-flash",
+            "apiKey": ""
+        }
+    ],
+    "defaultModelId": "gemini",
+    "prompts": [
+        {
+            "id": "simple",
+            "name": "Simple Definition",
+            "content": "Explain '{word}' in simple terms for a beginner."
+        },
+        {
+            "id": "etymology",
+            "name": "Etymology",
+            "content": "Give me the etymology and usage examples for '{word}'."
+        }
+    ],
+    "defaultPromptId": "simple",
+    "popup_style": "dark"
+}
